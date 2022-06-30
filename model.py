@@ -1,6 +1,6 @@
 # Importing the libraries
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
@@ -15,7 +15,7 @@ y = dataset.iloc[:, -1]
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 
-#Fitting model with trainig data
+#Fitting model with training data
 regressor.fit(x, y)
 
 # Saving model to disk
