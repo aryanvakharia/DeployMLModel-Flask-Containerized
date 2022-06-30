@@ -1,5 +1,9 @@
-## Deploying ML Model using Flask
-This is a simple project to elaborate how to deploy a Machine Learning model using Flask API
+## Deploying CONTAINERIZED ML Model using Flask
+Project to containerize MaajidKhan's DeployMLModel-Flask
+
+**NOTE: This project is merely for experimental and learning purposes, I am not trying to claim the original project as my own, all credits for the original app code go to the creator, MaajidKhan**
+
+**ORIGINAL README BELOW**
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
