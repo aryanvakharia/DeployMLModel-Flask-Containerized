@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 CMD ["python", "model.py"]
 
 EXPOSE 5000
-CMD ["python", "application.py"]
+CMD ["python", "app.py"]
