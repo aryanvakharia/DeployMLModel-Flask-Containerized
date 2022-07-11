@@ -21,6 +21,8 @@ regressor.fit(x, y)
 # Saving model to disk
 pickle.dump(regressor, open('model.pkl','wb'))
 
+print("Model done")
+
 '''
 # Loading model to compare the results
 model = pickle.load(open('model.pkl','rb'))

@@ -18,9 +18,11 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 #Container terminal command to run training script
-CMD ["python", "model.py"]
+#CMD ["python", "model.py"]
 
 #Assigning and exposing port to web-app with localhost
 EXPOSE 5000
 #Running flask application from container terminal
-CMD ["flask", "run", "--host", "0.0.0.0"]
+#CMD ["flask", "run", "--host", "0.0.0.0"]
+ENTRYPOINT ["/bin/sh", "-c", "python model.py && flask run --host 0.0.0.0"]
+
