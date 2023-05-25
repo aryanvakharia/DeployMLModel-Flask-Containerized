@@ -1,7 +1,7 @@
 ## Deploying CONTAINERIZED ML Model using Flask
 Project to containerize MaajidKhan's DeployMLModel-Flask
 
-**NOTE: This project is merely for experimental and learning purposes, I am not trying to claim the original project as my own, all credits for the original app code go to the creator, MaajidKhan**
+**NOTE: I am not trying to claim the original project as my own, all credits for the original app code go to the creator, MaajidKhan**
 
 **ORIGINAL README BELOW**
 
